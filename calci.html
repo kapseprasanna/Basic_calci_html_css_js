@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+    <script></script>
+    <strong><header>CALCULATOR</header></strong>
+    <div class="main-calci-box">
+        <div class="calci-container">
+            <table>
+
+                <div>
+                    <input type="tel" name="answer" class="answer" style="width: 183px;" autofocus >
+                    <input type="button" value="AC" onclick="clrfun()" class="AC">
+                </div>
+
+                <div>
+                    <input type="button" value="9" onclick="getnum(0)" class="numbers" >
+                    <input type="button" value="8" onclick="getnum(1)" class="numbers">
+                    <input type="button" value="7" onclick="getnum(2)" class="numbers">
+                    <input type="button" value="+" onclick="getop(0)" class="operator">
+                </div>
+
+                <div>
+                    <input type="button" value="4" onclick="getnum(3)" class="numbers">
+                    <input type="button" value="5" onclick="getnum(4)" class="numbers">
+                    <input type="button" value="6" onclick="getnum(5)" class="numbers">
+                    <input type="button" value="-" onclick="getop(1)" class="operator">
+                </div>
+
+                <div>
+                    <input type="button" value="1" onclick="getnum(6)"class="numbers">
+                    <input type="button" value="2" onclick="getnum(7)"class="numbers">
+                    <input type="button" value="3" onclick="getnum(8)"class="numbers">
+                    <input type="button" value="/" onclick="getop(2)" class="operator">
+                </div>
+
+                <div>
+                    <input type="button" value="." onclick="getnum(9)"class="numbers">
+                    <input type="button" value="0" onclick="getnum(10)"class="numbers">
+                    <input type="button" value="=" onclick="cal()" class="numbers">
+                    <input type="button" value="*" onclick="getop(3)" class="operator">
+                </div>
+            </div>
+
+            <script src="calci.js"></script>
+        </table>
+
+    </div>
+
+    
+</body>
+</html>
